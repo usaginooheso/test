@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+body {
+    font-family:"Meiryo" , "Hiragino Kaku Gothic Pron" , 'Courier New', sans-serif;
+}
+#gameWindow {
+    border:dashed 1px #666;
+    background-color: #efefef;
+}
+
+#mondaiJPArea, #mondaiArea, #typedMojiArea, #infoArea {
+    height: 30px;
+}
+
+#mondaiArea {
+    color: #333;
+}
+
+
+#infoArea > p {
+    display: inline-block;
+    width: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    background-color:;
+}
+
+#countThreeArea {
+    line-height: 120px;
+    text-align: center;
+    font-size: 34px;
+}
+#startBtnWrapper {
+    width:80px;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+#startBtn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    height; 30px;
+    width:80px;
+    box-sizing: border-box;
+    border: solid 1px #0f9ada;
+    color: #fff;
+    background-color: #03a9f4;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0,0.2);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+#startBtn:active {
+    transform: translateY(4px); /*下に動く*/
+    -ms-transform: translateY(4px); /*下に動く*/
+    -webkit-transform: translateY(4px); /*下に動く*/
+    border-bottom: none; /*下線を消す*/
+}
